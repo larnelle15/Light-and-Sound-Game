@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Finalist Task</title>
+  <!-- Links our CSS code to our HTML code -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Light and Sound game</h1>
+  <p>Welcome to the Light game! The pattern you hear will repeat back by pressing the buttons.</p>
+  <button id="startBtn" onclick="startGame()">Start</button>
+  <button id="stopBtn" onclick="stopGame()" class="hidden">Stop</button>
+  <div id ="gameButtonArea">
+  <!Add your game buttons here-->
+    <button id= "button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+    <button id="button2" onclick="guess(2)"onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+    <button id="button3" onclick="guess(3)"onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+    <button id="button4" onclick="guess(4)"onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+  </div>
+
+
+
+
+  <!-- Links our JavaScript code to our HTML code -->
+  <script src="script.js"></script>
+</script>
+</body>
+
+</html>
