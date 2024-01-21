@@ -1,0 +1,60 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  color: #17120D;
+  background-color: #CDFF06;
+  
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  color: #004922;
+  font-style:italic;
+}
+
+button{
+  padding:20px;
+  border-radius:20px;
+}
+
+#gameButtonArea > Button{
+  height:200px;
+  width:200px;
+  margin:2px;
+}
+
+.hidden{
+  display: None;
+}
+
+#button1{
+  background:lightgreen;
+}
+
+#button2{
+  background:lightblue ;
+}
+
+#button3{
+  background:pink;
+}
+
+#button4{
+  background:lightyellow;
+}
+
+#button1:active, #button1.lit{
+    background:green;
+}
+
+#button2:active, #button2.lit{
+  background: blue;
+}
+
+#button3:active, #button3.lit{
+background: red;
+}
+
+#button4:active, #button4.lit{
+  background:yellow;
+}
